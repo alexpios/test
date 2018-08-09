@@ -20,4 +20,8 @@ public class MyStart implements LifecycleObserver{
 
 
 
-}
+
+public void test(){
+
+
+}}

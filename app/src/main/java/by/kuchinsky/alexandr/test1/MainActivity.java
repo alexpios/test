@@ -12,7 +12,7 @@ TextView hello;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 MyStart myStart = new MyStart();
-
+        Toast.makeText(this, "testik", Toast.LENGTH_SHORT).show();
         getLifecycle().addObserver(myStart);
         Toast.makeText(this, "hi", Toast.LENGTH_SHORT).show();
      //   hello = (TextView)findViewById(R.id.hello);
