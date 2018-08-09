@@ -14,7 +14,8 @@ TextView hello;
 MyStart myStart = new MyStart();
 
         getLifecycle().addObserver(myStart);
-        hello = (TextView)findViewById(R.id.hello);
+        Toast.makeText(this, "hi", Toast.LENGTH_SHORT).show();
+     //   hello = (TextView)findViewById(R.id.hello);
 //        Toast.makeText(this, "lol "+ myStart.getStatus(), Toast.LENGTH_SHORT).show();
 //hello.setText(myStart.getStatus());
 
